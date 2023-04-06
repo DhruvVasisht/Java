@@ -37,7 +37,7 @@ int c[][]=new int[10][10];
 	for(int i=0;i<m;i++)
 		{    
 		for(int j=0;j<n;j++)
-0		    {    
+		    {    
 		  c[i][j]=a[i][j]+b[i][j];   
 		  System.out.print(c[i][j]+" ");    
 		    }    

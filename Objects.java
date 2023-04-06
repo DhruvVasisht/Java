@@ -9,10 +9,10 @@ public class Objects {
        p1.walk(4);
        
        
-        Person p2 =new Person();
-        p2.age=14;
-        p2.name="Chomu";
-        //p2.display();
+        Person p2 =new Person(24,"Chomu");
+        //p2.age=14;
+        //p2.name="Chomu";
+        p2.display();
        
         System.out.println(Person.count);
 
@@ -27,6 +27,12 @@ class Person{
     static int count;
     public Person(){
         count++;
+    }
+
+    public Person(int Newage, String name){
+        age=Newage;
+        this.name=name;
+        
     }
     void display(){
         System.out.println(age+" "+name);

@@ -5,10 +5,15 @@ public class Bitwise {
         int c= a&b;
         System.out.println(c);*/
 
-        int a=10;
+        /*int a=10;
         int b=13;
         int c= a|b;
-        System.out.println(c);
+        System.out.println(c);*/
+
+        int a=10;
+        int b=13;
+        int c= b<<2;
+        
         
     }
 }

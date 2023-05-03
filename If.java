@@ -1,6 +1,7 @@
 import java.util.Scanner;
 class If{
    public static void main(String args[]){
+      System.out.println("Hello World");
    Scanner sc= new Scanner(System.in);
    System.out.print("Enter Your Age :");
    int age= sc.nextInt();
